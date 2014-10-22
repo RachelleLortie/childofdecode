@@ -1,0 +1,301 @@
+/* 
+Theme Name : Pencil
+Template : Decode
+ */
+ 
+ @import url("../decode/style.css");
+ 
+ /* Space options under category bar in menu */
+ option 
+{
+	 padding:2px;
+}
+ 
+ /* Fonts general */
+ 
+body 
+{
+	font-size:16px;
+}
+
+@media only screen and (min-width: 1096px) {
+.site-title a {
+	font-size:3.9em;
+}
+}
+ 
+h1, h2 
+{
+	font-family:'adelle', Georgia, Times New Roman, serif;
+	font-weight:100;
+}
+
+abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h3, h4, h5, h6, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+	font-family: helvetica, 'Lato', arial, sans-serif; 
+	font-weight:300;
+}
+
+/* Text in post */
+.post {
+	line-height:1.4;
+	font-size:1em;
+}
+
+/* Notes above reply box */
+.comment-reply-title,.comment-notes {
+	font-size:1em;
+}
+
+@media only screen and (min-width: 677px) {
+.post {
+	line-height:1.6;	
+	font-size:1.0625em;
+}
+
+.entry-content{
+	line-height:1.6;	
+	font-size:1.125em;
+}
+
+.comment-reply-title,.comment-notes {
+	font-size:1.25em;
+}
+}
+
+/*Adjustments to nav menu */
+.menu {
+	padding-bottom:5px;
+}
+
+.menu a {
+	font-size:1.375em;
+}
+
+/* Nav menu child-page foldout */
+.menu ul ul {
+	box-shadow:1px 0 2px #c9c5bf;
+	background-color:#FFF !important;
+	text-align:left;
+}
+
+.menu ul ul a {
+	font-size:1.125em;
+}
+
+/* Titles w/in sidebar menu */
+.widgettitle {
+	font-size:1.5em;
+	color:#bc8401;
+}
+ 
+/* Style sidebar menu bar at top left */ 
+.sidebar-link {
+	border:solid #bc8401 1px !important;
+	background-color:#fffaf6;
+	width:auto;
+	padding:5px 10px 2px 10px!important;
+}
+
+@media only screen and (min-width: 800px) {
+.sidebar-link {
+	font-size:1.125em;
+}
+}
+
+/* Corrects responsive style in parent theme,
+was making menu button sit too high at small screen size */ 
+@media only screen and (max-width: 800px) {
+.sidebar-link {
+	margin-top:15px;
+	position:absolute;
+}
+}
+
+/* Tag links at top of each blog entry*/
+.thetags {
+	text-align:center;
+	border-top: solid #bc8401;
+	border-width: 2px;
+}
+
+.thetags a{
+	font-size:1em;
+	background-color:#fffbf7;
+	border: solid #bc8401;
+	border-width: 1px;
+	border-radius: 3px;
+	padding:8px !important;
+	
+}
+ 
+/* Decorative yellow at top of page */
+#top-border-bar {
+	width:100%;
+	height:10px;
+	background-color:#fece69;
+}
+
+/* Space between first post and nav area */
+.content-area {
+	margin-top:20px;
+}
+
+/* Remove borders from posts */
+.site-header , .entry-footer{
+	border-style:none;
+}
+
+/* Styles for sidebar / menu */
+.sidebar-top {
+	background-color:#fece69 !important;
+	border-style:solid !important;
+	border-bottom:2px !important;
+	
+}
+
+.sidebar.left {
+	box-shadow:1px 0 2px #c9c5bf;
+	background-color:#FFF ;
+	border-style:solid;
+	border-right-color:#bc8401;
+}
+
+.sidebar.left a {
+	color:#493d33;
+	font-size:1.25em;
+}
+
+.widget ol, .widget ul {
+	margin:0.8em;
+	list-style-type:none;
+}
+
+.widget a {
+	color:#A73638;
+}
+
+.sidebar-link.left {
+	height:1.9em;
+	left:3%;
+}
+
+/* orange bar w text - learn history, be history... */
+.introtext {
+	text-align:center;
+	background-color:#fece69;
+	padding-bottom:5px;
+	padding-top:5px;
+	border-bottom-style:solid;
+	border-bottom-color:#bc8401;
+	border-bottom-width:2px;
+	border-radius:3px;
+	font-size:1em;
+	color:#171717;
+	
+}
+
+/* orange bar w/o text */
+.orange-top {
+	height:35px;
+	border-radius:3px;
+	background-color:#fece69;
+	border-bottom-style:solid;
+	border-bottom-color:#bc8401;
+	border-bottom-width:2px;
+}
+
+/* Search elements of sidebar menu */
+input[name="ofsearch"] {
+	width:100%;
+	margin-bottom:10px;
+}
+
+input[value="Submit"]	{
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+.searchandfilter ul {
+	display:block;
+	margin:0;
+}
+
+/* Margins for content and masthead */
+#masthead {
+	margin:2.5% auto 0;
+}
+
+#content {
+	margin-top:20px;
+}
+
+/* Image uploader on draw page */ 
+#uploadimage_form {
+	max-width:400px;
+	margin:0 auto;
+	
+}
+
+#imagedescription {
+	max-width:400px;
+
+}
+
+.addedtext, .upload_error {
+	max-width:400px;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.upload_error {
+	color:#bc8401;
+}
+
+.site-logo {
+	transition:none;
+}
+
+.attachment {
+	margin:0 auto;
+}
+
+/* Featured img (used to insert maps) */
+.attachment-post-thumbnail {
+	width:250px;
+	border: solid 1px #B3B3B3;
+	border-radius:3px;
+}
+
+@media only screen and (min-width: 677px) {
+	
+.attachment-post-thumbnail {
+	float:right;
+}
+
+}
+
+.entry-meta {
+	float:left;
+	max-width:300px;
+	margin-bottom:70px;
+}
+
+/* Hides featured image on homepage */
+.entry-header img {
+	display:none;
+}
+
+/* General styling for individual post pages */
+.comments-area {
+	margin-top:30px;
+}
+
+.content-area article {
+	margin-bottom:120px;
+}
+
+.comment-body {
+	margin-bottom:100px !important;
+}
+
