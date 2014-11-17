@@ -29,14 +29,14 @@
 	
 	<?php tha_sidebars_before(); ?>
 	<div class="widget-area" role="complementary">
-	   <?php echo do_shortcode('[searchandfilter fields="search,category"]'); ?>  
+	   <?php echo do_shortcode('[searchandfilter fields="search,period"]'); ?>  
 		<?php tha_sidebar_top(); ?>
 		<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
-			<aside id="search" class="widget widget_search">
+			<aside id="search" class="widget widget_search">                           
 				<?php get_search_form(); ?>
 			</aside>
-   
+  
 
 			<aside id="archives" class="widget">
 				<h1 class="widget-title"><?php _e( 'Archives', 'decode' ); ?></h1>

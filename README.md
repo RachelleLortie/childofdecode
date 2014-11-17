@@ -1,4 +1,0 @@
-childofdecode
-=============
-
-Decode Child Theme
